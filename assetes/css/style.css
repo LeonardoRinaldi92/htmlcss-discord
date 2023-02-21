@@ -53,9 +53,6 @@ justify-content:space-around;
     gap: 20px;
 }
 
-/* .gap30 {
-    gap: 30px;
-} */
 
 .gap50 {
     gap: 50px;
@@ -228,6 +225,10 @@ justify-content:space-around;
     padding-top: 80px;
 }
 
+.padd-top40 {
+    padding-top: 40px;
+}
+ 
 .padd-top100 {
     padding-top: 100px;
 }
@@ -257,4 +258,8 @@ justify-content:space-around;
 
 .button-black {
     background-color: black;
+}
+
+#italy-flag {
+    vertical-align:sub;
 }
