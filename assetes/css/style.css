@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
     text-decoration: none;
 }
 
@@ -81,6 +81,14 @@ justify-content:space-around;
  
 .listwidth-big {
     width: calc(100% / 3);
+}
+
+.col70 {
+    flex-basis: 70%;
+}
+
+.col30 {
+    flex-basis: 30%;
 }
 
 .width-20 {
@@ -203,6 +211,10 @@ justify-content:space-around;
 
 .mrgbot-60{
     margin-bottom: 60px;
+}
+
+.mrgtop-30 {
+    margin-top: 30px;
 }
 
 .mrgtop-60 {
