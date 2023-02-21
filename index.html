@@ -9,57 +9,63 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
  </style>
          </style>
-     <link rel="stylesheet" href="./assetes/css/style.css">
+
     <link rel="stylesheet" href="./assetes/css/style.css">
     <title>htmlcss-struttura-discord</title>
 </head>
 <body>
     <header>
         <!-- container header -->
-        <div class="header-container container-height"> 
+        <div class="header-color"> 
             <!-- barra nav -->
             <nav class="width-80 nav-container mrg0auto padd-top20">
                 <!-- box flexato -->
                 <div class="flex jst-cntr">
                     <!-- box sinistra -->
-                    <div class="logo width-20 brd-yell">                       
+                    <div class="logo width-20">
+                        <a href="https://discord.com/">
+                            <img src="./assetes/img/logo.svg" alt="logoDiscord">
+                        </a>                      
                     </div>
                     <!--box centrale -->
-                    <div class="width-60 brd-yell flex jst-cntr al-cntr">
+                    <div class="width-60 flex jst-cntr al-cntr">
                         <!-- lista nav -->
                         <div class="width-100">
-                            <ul class="flex jst-spbtwn txt-white">
-                                <li><strong>Scarica</strong></li>
-                                <li><strong>Perchè Discord</strong></li>
-                                <li><strong>Nitro</strong></li>
-                                <li><strong>Siscurezza</strong></li>
-                                <li><strong>Assistenza</strong></li>
+                            <ul class="flex jst-spbtwn">
+                                <li><a class="txt-white" href="https://discord.com/downloadScarica">Scarica</a></li>
+                                <li><a class="txt-white" href="https://discord.com/servers">Perchè Discord</a></li>
+                               <li><a class="txt-white" href="https://discord.com/nitro">Nitro</a></li>                                
+                                <li><a class="txt-white" href="https://discord.com/safetycenter">Sicurezza</a></li>
+                                <li><a class="txt-white" href="https://support.discord.com/hc/it">Assistenza</a></li>
                             </ul>
                         </div>
                     </div>
                     <!-- box destra button -->
-                    <div class="flex width-20 brd-yell jst-end al-cntr">   
-                        <button class="button-style"><strong>Accedi</strong>
-                        </button>    
+                    <div class="flex width-20 jst-end al-cntr">   
+                        <a href="https://discord.com/login" class="button-style"><strong>Accedi</strong>
+                        </a>    
                     </div>
                 </div>
             </nav>
+        </div>
+        <div class="main-image">
             <!-- titolo e occhiello -->
-            <section class="width-60 mrg0auto brd-yell padd-top100 padd-bott100">
+            <section class="width-60 mrg0auto  padd-top80 padd-bott100">
                 <!-- flex colonna -->
-                <div class="flex flx-column gap50 txt-white txt-centre">
+                <div class="txt-white txt-centre">
                     <!-- titolo -->
-                    <h1 class="font60 brd-red">Il tuo posto per parlare
+                    <h1 class="font60 mrgbot-40">Il tuo posto per parlare
                     </h1>
                     <!-- spiegazione -->
-                    <p class="font30 brd-red ">Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.
-                    </p>
+                    <div class="mrg-lr">
+                        <p class=" mrgbot-20px ln-h180 ">Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.
+                        </p>
+                    </div>
+                    
                      <!-- bottoni  -->
-                     <div class="flex jst-cntr gap10">
-                        <div><button class="button-style font20 ">&#8659; Scarica per Mac</button>
-                        </div>
-                        <div><button class="button-style font20 button-black txt-white">Apri Discord nel tuo Browser</button>
-                        </div>
+                     <div class="flex jst-cntr gap10 ">
+                        <a href="https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&amp;platform=win&amp;arch=x86"  class="button-style  "><strong>&#11015; Scarica per Mac</strong></a>                        
+                        <a href="#" class=" button-style button-black txt-white "><strong>Apri Discord nel tuo Browser</strong></a>
                     </div>
                 </div>
             </section>
