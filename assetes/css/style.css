@@ -116,6 +116,9 @@ justify-content:space-around;
     background-position: center;
 }
 
+.darkgrey {
+    background-color:rgb(49,51,56) ;
+}
 
 .txt-white{
     color: white;
@@ -135,27 +138,9 @@ justify-content:space-around;
     background-color: rgb(37,94,233);
 }
 
-
 .gray {
     background-color: rgb(246,246,246);
 }
-
-.empty-slot1 {
-    background-color: rgb(228, 106, 106) ;
-}
-
-.empty-slot2 {
-    background-color: rgb(168, 192, 59);
-}
-
-.lightblu {
-    background-color: rgb(72, 116, 238);
-}
-
-.darkgrey {
-    background-color: rgb(27, 27, 27);
-}
-
 
 /* bordi colorati  */
 
