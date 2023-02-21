@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.flex {
+    display: flex;
+}
+/* proprieta flex */
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.jst-spbtwn {
+justify-content:space-around;
+}
+
+.jst-spcaround {
+    justify-content: space-between;
+}
+
+.jst-cntr {
+    justify-content: center
+}
+
+.jst-end{
+    justify-content: end;
+}
+
+.al-cntr {
+    align-items:center
+}
+
+.flx-column {
+    flex-direction: column;
+}
+
+.gap10{
+    gap: 20px;
+}
+
+.gap50 {
+    gap: 50px;
+}
+
+/* dimensioni per container numeriche  */
+.container-height {
+    min-height: 500px ;
+}
+
+.slots-height {
+    min-height: 200px;
+}
+
+.nav-container {
+    min-height: 50px;
+}
+
+/* dimensioni oercentuali */
+.listwidth-small {
+    width:calc(100% / 2);
+}
+ 
+.listwidth-big {
+    width: calc(100% / 3);
+}
+
+
+
+.width-20 {
+    width: 20%
+}
+
+.width-40{
+    width: 40%;
+}
+
+.width-80{
+    width: 80%;
+}
+
+.width-60{
+    width: 60%;
+}
+
+.width-100{
+    width: 100%;
+}
+
+/* colori */
+
+.txt-white{
+    color: white;
+}
+
+.txt-blu {
+   color: rgb(72, 116, 238); 
+}
+
+/* background color */
+.header-container {
+    background-color: rgb(49,97,224);
+}
+.button-black {
+    background-color: black;
+}
+
+.gray {
+    background-color: rgb(246,246,246);
+}
+
+.empty-slot1 {
+    background-color: rgb(228, 106, 106) ;
+}
+
+.empty-slot2 {
+    background-color: rgb(168, 192, 59);
+}
+
+.lightblu {
+    background-color: rgb(72, 116, 238);
+}
+
+.darkgrey {
+    background-color: rgb(27, 27, 27);
+}
+
+
+/* bordi colorati  */
+
+.brd-yell{
+    border: 1px yellow dashed;
+}
+
+.brd-red {
+    border: 1px red dotted;
+}
+
+/* formattazione testo */
+
+
+.txt-centre {
+    text-align: center;
+}
+
+.font60 {
+    font-size: 50px;
+}
+
+.font30{
+    font-size: 25px;
+}
+
+.font40
+{font-size: 40px;}
+
+.font20{
+    font-size: 20px;
+}
+
+/* margini e padding */
+.mrgbot-20px {
+    margin-bottom: 20px;
+}
+
+.mrgbot-40 {
+    margin-bottom: 40px;
+}
+
+.mrgbot-60{
+    margin-bottom: 60px;
+}
+
+.mrgtop-60 {
+    margin-top: 60px;
+}
+.mrg0auto {
+    margin: 0 auto;
+}
+
+.padd-top100 {
+    padding-top: 100px;
+}
+
+.padd-top20 {
+    padding-top: 20px;
+}
+
+.padd-bott100 {
+    padding-bottom: 100px;
+}
+
+.padd-bott60 {
+    padding-bottom: 60px;
+}
+
+.padd-bott20 {
+    padding-bottom: 20px;
+}
+
+.padd-top60 {
+    padding-top: 60px;
+}
+
+/* stile bottoni */
+
+.button-style {
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+
